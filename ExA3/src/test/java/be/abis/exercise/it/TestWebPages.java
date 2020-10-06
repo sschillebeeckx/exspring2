@@ -17,12 +17,12 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
-import be.abis.exercise.controller.CourseController;
+import be.abis.exercise.controller.AppController;
 import be.abis.exercise.model.Course;
 import be.abis.exercise.service.CourseService;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(CourseController.class)
+@WebMvcTest(AppController.class)
 public class TestWebPages {
 	
 	@Autowired private MockMvc mockMvc;
