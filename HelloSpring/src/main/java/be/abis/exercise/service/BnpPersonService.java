@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import be.abis.exercise.model.Person;
 
-//@Service
+@Service
 @Profile("production")
 public class BnpPersonService implements PersonService {
 

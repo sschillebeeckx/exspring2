@@ -21,7 +21,7 @@ public class TestPersonService {
 	@Test
 	public void test() {
 		Person p = ps.findPersonById(1);
-		assertEquals("Sandy",p.getFirstName());
+		assertEquals("Kristof",p.getFirstName());
 	}
 
 }
