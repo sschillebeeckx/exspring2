@@ -22,7 +22,7 @@ public class AbisTrainingService implements TrainingService {
 	private PersonRepository personRepository;
       
 	
-	@Override
+	
 	public CourseService getCourseService() {
 		return courseService;
 	}
